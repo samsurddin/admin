@@ -40,7 +40,7 @@ function Navbar(props) {
 			</li>
 		</ul>
 		
-				<ul className={`md:hidden flex-col mt-[-15px] pb-1 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-0 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
+				<ul className={`md:hidden flex-col mt-[-15px] pb-1 absolute md:static bg-white md:z-auto z-auto left-0 w-full md:w-auto md:pl-0 pl-0 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
 					<li className='pl-5 text-lg text-black py-1 hover:bg-gray-300 hover:border-b-2'>My Profile</li>
 					<li className='pl-5  text-lg text-black py-1 hover:bg-gray-300 hover:border-b-2'>My Timesheets</li>
 					<li className='pl-5 text-lg text-black py-1 hover:bg-gray-300 hover:border-b-2'>Edit Profile</li>

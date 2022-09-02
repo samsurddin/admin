@@ -3,7 +3,7 @@ import Progress from './Progress';
 
 const Main = () => {
   return (
-    <div>
+    <div className=''>
       <Progress />
     </div>
   );
